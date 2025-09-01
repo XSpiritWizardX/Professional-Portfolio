@@ -98,7 +98,7 @@ function LandingPage() {
           <p>Extremely Satisfied Clients </p>
         </div>
         <div className="stat-item">
-          <h3>50+</h3>
+          <h3>100+</h3>
           <p>Technologies</p>
         </div>
 

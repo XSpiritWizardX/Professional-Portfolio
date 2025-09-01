@@ -208,26 +208,42 @@ function AboutPage() {
     {
       src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1752268509/IMG_6061_hoeepp.jpg",
     },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756253383/1000000569_qvgdzt.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756253357/1000000605_gb1enn.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756253362/1000000599_hjysml.jpg",
+    },
+
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756747725/1000000906_i8rc5q.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756747724/1000000897_osurtk.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756747720/1000000903_eukkpb.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756747720/IMG_20250824_162749713_PORTRAIT_atwbj4.jpg",
+    },
+    {
+      src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1756253381/1000000638_fazezs.jpg",
+    },
+
 
     /* ADD MORE PICTURRES OF FAMILY AND STUFF*/
-    // {
-    //   src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
-    // },
-    // {
-    //   src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
-    // },
-    // {
-    //   src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
-    // },
-    // {
-    //   src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
-    // },
-    // {
-    //   src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
-    // },
-    // {
-    //   src: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1747963870/485761821_9289269257789147_3271802936818663508_n_v9keh4.jpg",
-    // },
+
+
+
+
+
 
   ];
 
