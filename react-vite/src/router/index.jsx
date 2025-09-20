@@ -10,6 +10,7 @@ import ThreeJSGame from '../components/ThreeJsGame/ThreeJsGame';
 import Platformer from '../components/Platformer/Platformer';
 import ClickerGame from '../components/ClickerGame/ClickerGame';
 import SkillMeter from '../components/SkillMeter/SkillMeter';
+import CatClickerGame from '../components/CatClickerGame/CatClickerGame';
 export const router = createBrowserRouter([
   {
     element: <Layout />,
@@ -53,6 +54,10 @@ export const router = createBrowserRouter([
       {
         path: "/clicker",
         element: <ClickerGame />
+      },
+      {
+        path: "/cat-clicker",
+        element: <CatClickerGame />
       },
       {
         path: "*",

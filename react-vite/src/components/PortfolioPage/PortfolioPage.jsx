@@ -67,6 +67,17 @@ const projects = [
     isInternal: true
   },
   {
+    id: 27,
+    title: "Cat Clicker",
+    description: "Clicking Cats For Fun.",
+    image: "",
+    liveUrl: "/cat-clicker",
+    githubUrl: "#",
+    technologies: ["React", "CSS"],
+    category: "Game Development",
+    isInternal: true
+  },
+  {
     id: 7,
     title: "Space Flight Simulator",
     description: "An epic 3D space flight simulator. Planning to template and expand on this later.",
