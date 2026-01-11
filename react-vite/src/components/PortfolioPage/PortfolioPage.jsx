@@ -2,7 +2,6 @@ import "./PortfolioPage.css";
 import { useState } from "react";
 import VideoSlider from "../VideoSlider/VideoSlider";
 import { Link } from "react-router-dom";
-import SignTheWall from '../SignTheWall/SignTheWall';
 import MouseTrail from '../MouseTrail/MouseTrail'
 const projects = [
   {
@@ -23,6 +22,56 @@ const projects = [
     liveUrl: "https://tradetoad.onrender.com/",
     githubUrl: "https://github.com/XSpiritWizardX/tradetoad",
     technologies: ["React", "Redux", "Python", "Flask", "PostgreSQL", "CSS", "HTML", "Polygon", "React Charts"],
+    category: "Web Development"
+  },
+  {
+    id: 28,
+    title: "Quantum Maze Simulation",
+    description: "Quantum simulation engine that evolves state vectors to model interference-driven traversal with visualization and QASM export.",
+    image: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1768170864/Screenshot_2026-01-11_173357_bydncm.png",
+    liveUrl: "https://quantum-walk-explorer.onrender.com/",
+    githubUrl: "https://github.com/XSpiritWizardX/quantum-walk-explorer",
+    technologies: ["Python", "Qiskit", "NumPy", "Matplotlib", "ImageIO"],
+    category: "Web Development"
+  },
+  {
+    id: 29,
+    title: "Snow Dash Christmas 2025",
+    description: "Real-time mobile-first multiplayer game prototype with low-latency rooms, host-controlled rounds, and live state sync.",
+    image: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1768169711/Screenshot_2026-01-11_171303_dadwcd.png",
+    liveUrl: "https://xmas-eve-game.onrender.com",
+    githubUrl: "#",
+    technologies: ["React", "Flask-SocketIO", "WebSockets", "Python", "Adobe"],
+    category: "Game Development"
+  },
+  {
+    id: 30,
+    title: "Zeta Wolf Entertainment",
+    description: "Entertainment brand site featuring services, media highlights, and contact pathways.",
+    image: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1762746206/30374998_Iwf9MVEY7ydoULV_oydwvj.gif",
+    liveUrl: "https://zeta-wolf-entertainment.onrender.com",
+    githubUrl: "#",
+    technologies: ["Web Design", "Branding", "Responsive Design"],
+    category: "Web Development"
+  },
+  {
+    id: 31,
+    title: "Dream Grid Studios",
+    description: "Studio website built to showcase creative work, services, and brand story.",
+    image: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1762819907/ChatGPT_Image_Nov_10_2025_06_00_50_PM_lwbkgg.png",
+    liveUrl: "https://dgi-studios.onrender.com",
+    githubUrl: "#",
+    technologies: ["Web Design", "Branding", "Responsive Design"],
+    category: "Web Development"
+  },
+  {
+    id: 32,
+    title: "Swift Apply Extension",
+    description: "Browser extension project with implementation details on GitHub.",
+    image: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1768171654/Screenshot_2026-01-11_174721_ke2agf.png",
+    liveUrl: "#",
+    githubUrl: "https://github.com/XSpiritWizardX/swift-apply-extension",
+    technologies: ["JavaScript", "HTML", "CSS", "Browser Extensions"],
     category: "Web Development"
   },
   {
@@ -70,7 +119,7 @@ const projects = [
     id: 27,
     title: "Cat Clicker",
     description: "Clicking Cats For Fun.",
-    image: "",
+    image: "https://res.cloudinary.com/dl6ls3rgu/image/upload/v1768169013/Screenshot_2026-01-11_170241_bjrfkl.png",
     liveUrl: "/cat-clicker",
     githubUrl: "#",
     technologies: ["React", "CSS"],
@@ -404,8 +453,6 @@ function PortfolioPage() {
 
 
       </div>
-
-      <SignTheWall/>
 
       {selectedProject && (
         <div className="project-modal" onClick={() => setSelectedProject(null)}>

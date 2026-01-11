@@ -87,9 +87,16 @@ const handleResumeDownload = () => {
             </div>
           </div>
 
-
-
-
+          <div className="calendly-section">
+            <h3>Book a Meeting</h3>
+            <iframe
+              className="calendly-inline-widget"
+              src="https://calendly.com/dbovee824/new-meeting?hide_landing_page_details=1&hide_gdpr_banner=1"
+              style={{ minWidth: "320px", height: "700px" }}
+              frameBorder="0"
+              title="Calendly Scheduling"
+            ></iframe>
+          </div>
 
           <div className="social-links">
             <h3>Connect With Me</h3>

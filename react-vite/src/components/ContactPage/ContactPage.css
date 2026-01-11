@@ -320,6 +320,24 @@ background: linear-gradient(90deg, #000000 0%, rgb(35, 29, 124) 15%, rgb(19, 255
   color: rgb(255, 255, 255);
 }
 
+.calendly-section {
+  margin: 2rem 0;
+}
+
+.calendly-section h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.calendly-inline-widget {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .resume-btn {
   display: flex;
   align-items: center;

@@ -90,11 +90,11 @@ function LandingPage() {
 
       <div className="quick-stats">
         <div className="stat-item">
-          <h3>4+</h3>
+          <h3>11+</h3>
           <p>Active Apps</p>
         </div>
         <div className="stat-item">
-          <h3>12+</h3>
+          <h3>14+</h3>
           <p>Extremely Satisfied Clients </p>
         </div>
         <div className="stat-item">

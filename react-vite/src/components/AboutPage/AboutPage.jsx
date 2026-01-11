@@ -66,6 +66,33 @@ function AboutPage() {
   };
 
   const experienceData = {
+    vas_dynamics: {
+      title: "Software Engineer (Contract)",
+      company: "VAS Dynamics LLC",
+      duration: "09/2025 - Present",
+      image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' viewBox='0 0 800 500'><rect width='800' height='500' fill='%2314202b'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='Arial' font-size='36'>VAS%20Dynamics</text></svg>",
+      description: "Full-stack engineering for client systems, delivering core architecture, secure admin workflows, and e-commerce integrations.",
+      achievements: [
+        "Built custom forms with uploads, Google Auth, CAPTCHA, and automated email flows",
+        "Designed multi-role admin dashboards with analytics and secure access controls",
+        "Architected e-commerce systems with dynamic pricing, inventory controls, freight-rate APIs, and 300+ tests",
+        "Translated requirements into milestones while coordinating engineers through delivery"
+      ],
+      skills: ["React", "Python", "Flask", "REST APIs", "OAuth", "E-Commerce", "Testing", "Project Planning"]
+    },
+    lake_life_services: {
+      title: "Web Developer & Marketing Support",
+      company: "Lake Life Services LLC",
+      duration: "10/2024 - 05/2025",
+      image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' viewBox='0 0 800 500'><rect width='800' height='500' fill='%231b2a24'/><text x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23ffffff' font-family='Arial' font-size='34'>Lake%20Life%20Services</text></svg>",
+      description: "WordPress support and marketing analytics optimization for a local service business.",
+      achievements: [
+        "Resolved API and plugin conflicts across the WordPress stack",
+        "Improved conversion tracking and performance insights with Google Tag Manager",
+        "Optimized keyword strategy and data-driven copy for stronger visibility"
+      ],
+      skills: ["WordPress", "JavaScript", "Google Tag Manager", "SEO", "Analytics", "Content Strategy", "Plugin Debugging"]
+    },
     freelance: {
       title: "Freelance Software Engineer",
       company: "Self-Employed",
